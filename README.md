@@ -418,5 +418,5 @@ This project is for educational purposes. Use responsibly.
 
 <p align="center">
   <strong>Understanding cryptography is essential — but never roll your own crypto for production.</strong><br>
-  Happy learning! 🔐
+  Happy Mathing ! 🔐
 </p>
