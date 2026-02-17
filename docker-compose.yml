@@ -11,14 +11,3 @@ services:
       - "80:80"
     depends_on:
       - backend
-```
-
----
-
-## Step 2: Update your .gitignore
-
-```
-backend/venv/
-frontend/node_modules/
-__pycache__/
-.env
