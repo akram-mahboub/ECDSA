@@ -340,30 +340,6 @@ crypto-edu-app/
 
 ---
 
-## 🚢 Deployment
-
-Docker makes deployment straightforward on any server.
-
-```bash
-# On your server (DigitalOcean, AWS EC2, Hetzner, etc.)
-git clone https://github.com/yourusername/crypto-edu-app.git
-cd crypto-edu-app
-docker-compose up -d --build
-```
-
-Your app is live. The frontend serves on port 80, the API on port 5000.
-
-**Platform deployment options:**
-
-| Platform | Method |
-|----------|--------|
-| **VPS** (DigitalOcean, AWS EC2) | SSH in, clone repo, `docker-compose up -d` |
-| **Railway** | Connect GitHub repo → auto-deploys on push |
-| **Render** | Connect GitHub repo → detects Dockerfile → deploys |
-| **Fly.io** | `fly launch` → reads Dockerfile → global deployment |
-
----
-
 ## 🎓 Learning Path
 
 1. **Start with DSA** — understand discrete logarithms and the basic signature math
@@ -418,5 +394,5 @@ This project is for educational purposes. Use responsibly.
 
 <p align="center">
   <strong>Understanding cryptography is essential — but never roll your own crypto for production.</strong><br>
-  Happy learning! 🔐
+  Happy Mathing ! 🔐
 </p>
