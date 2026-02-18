@@ -13,10 +13,13 @@ function App() {
         <div className="header-content">
           <h1 className="app-title">
             <span className="title-icon">🔐</span>
-            Digital Signature Education Lab
+            <span className="title-text-wrap">
+              <span className="title-main">Digital Signature Lab</span>
+              <span className="title-sub-line">Cryptographic Education Platform</span>
+            </span>
           </h1>
           <p className="app-subtitle">
-            Learn cryptographic signature algorithms step-by-step
+            Learn DSA &amp; ECDSA algorithms<br />step-by-step with interactive demos
           </p>
         </div>
       </header>
@@ -32,7 +35,7 @@ function App() {
             <small>Classic discrete logarithm</small>
           </span>
         </button>
-        
+
         <button
           className={`mode-btn ${activeMode === 'ecdsa-edu' ? 'active' : ''}`}
           onClick={() => setActiveMode('ecdsa-edu')}
@@ -43,7 +46,7 @@ function App() {
             <small>Toy elliptic curves</small>
           </span>
         </button>
-        
+
         <button
           className={`mode-btn ${activeMode === 'ecdsa-real' ? 'active' : ''}`}
           onClick={() => setActiveMode('ecdsa-real')}
@@ -51,21 +54,21 @@ function App() {
           <span className="mode-icon">🔒</span>
           <span className="mode-text">
             <strong>ECDSA Production</strong>
-            <small>Real-world secure</small>
+            <small>Real-world secure curves</small>
           </span>
         </button>
       </nav>
 
       <main className="main-content">
-        {activeMode === 'dsa' && <DSAEducational />}
-        {activeMode === 'ecdsa-edu' && <ECDSAEducational />}
+        {activeMode === 'dsa'        && <DSAEducational />}
+        {activeMode === 'ecdsa-edu'  && <ECDSAEducational />}
         {activeMode === 'ecdsa-real' && <ECDSAReal />}
       </main>
 
       <footer className="app-footer">
         <p>
-          Educational Cryptography Application | 
-          Made for learning purposes | 
+          Educational Cryptography Application &nbsp;|&nbsp;
+          For learning purposes only &nbsp;|&nbsp;
           Never use toy parameters in production
         </p>
       </footer>
