@@ -6,7 +6,7 @@
 [![React](https://img.shields.io/badge/React-18-61dafb.svg)](https://reactjs.org)
 [![Flask](https://img.shields.io/badge/Flask-API-green.svg)](https://flask.palletsprojects.com)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg)](https://docker.com)
-[![License](https://img.shields.io/badge/License-Educational-orange.svg)](#license)
+[![License](https://img.shields.io/badge/MIT-orange.svg)](#license)
 
 ---
 
