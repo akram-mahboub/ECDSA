@@ -1,4 +1,4 @@
-# 🔐 Digital Signature Education Lab
+# 🔐 Digital Signature Education Lab (3)
 
 > An interactive educational platform for exploring cryptographic digital signature algorithms — step by step, formula by formula.
 
